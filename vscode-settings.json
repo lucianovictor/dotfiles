@@ -9,9 +9,9 @@
   
   // Editor settings
   "editor.wordWrap": "on",
-  "editor.fontSize": 12,
+  "editor.fontSize": 14,
   "editor.lineHeight": 20,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 13,
   "editor.tabSize": 2,
   "editor.fontFamily": "JetBrains Mono, Fira Code",
   "editor.fontLigatures": true,
@@ -76,4 +76,5 @@
   "security.workspace.trust.untrustedFiles": "newWindow",
   "editor.cursorBlinking": "expand",
   "bracketPairColorizer.depreciation-notice": false,
+  "terminal.integrated.fontFamily": "Fira Code",
 }
