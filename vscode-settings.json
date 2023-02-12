@@ -1,6 +1,7 @@
+
 {
   // Workbench
-"workbench.iconTheme": "material-icon-theme",
+"workbench.iconTheme": "symbols",
 "workbench.editor.labelFormat": "short",
 "workbench.startupEditor": "newUntitledFile",
 "workbench.editor.untitled.hint": "hidden",
@@ -74,8 +75,9 @@
 "editor.inlineSuggest.enabled": true,
 "security.workspace.trust.untrustedFiles": "newWindow",
 "editor.cursorBlinking": "expand",
-"editor.cursorSmoothCaretAnimation": true,
+"editor.cursorSmoothCaretAnimation": "on",
 "bracketPairColorizer.depreciation-notice": false,
 "workbench.productIconTheme": "fluent-icons",
 "workbench.colorTheme": "Dracula Pro",
+"terminal.integrated.fontFamily": "MesloLGS NF",
 }
