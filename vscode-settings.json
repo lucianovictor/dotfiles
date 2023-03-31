@@ -1,4 +1,3 @@
-
 {
   // Workbench
 "workbench.iconTheme": "symbols",
@@ -78,6 +77,11 @@
 "editor.cursorSmoothCaretAnimation": "on",
 "bracketPairColorizer.depreciation-notice": false,
 "workbench.productIconTheme": "fluent-icons",
-"workbench.colorTheme": "Dracula Pro",
+"workbench.colorTheme": "Moonlight",
 "terminal.integrated.fontFamily": "MesloLGS NF",
+"tabnine.experimentalAutoImports": true,
+"workbench.sideBar.location": "right",
+"[typescriptreact]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
 }
