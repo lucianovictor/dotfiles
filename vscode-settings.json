@@ -1,92 +1,50 @@
 {
-  // Workbench
-"workbench.iconTheme": "symbols",
-"workbench.editor.labelFormat": "short",
-"workbench.startupEditor": "newUntitledFile",
-"workbench.editor.untitled.hint": "hidden",
-// "window.titleBarStyle": "custom",
-
-// Editor settings
-"editor.wordWrap": "on",
-"editor.fontSize": 14,
-"editor.lineHeight": 20,
-"terminal.integrated.fontSize": 14,
-"editor.tabSize": 2,
-"editor.fontFamily": "CaskaydiaCove NF",
-"editor.fontLigatures": true,
-"editor.renderLineHighlight": "gutter",
-"editor.rulers": [80, 120],
-"editor.parameterHints.enabled": false,
-"editor.semanticHighlighting.enabled": true,
-"editor.bracketPairColorization.enabled": true,
-"editor.codeActionsOnSave": {
-"source.fixAll": true
-},
-
-// VSCode stuff
-"breadcrumbs.enabled": true,
-"explorer.compactFolders": false,
-"explorer.confirmDragAndDrop": false,
-"explorer.confirmDelete": false,
-"javascript.updateImportsOnFileMove.enabled": "never",
-"typescript.updateImportsOnFileMove.enabled": "never",
-
-// Emmet
-"emmet.syntaxProfiles": { "javascript": "jsx" },
-"emmet.includeLanguages": { "javascript": "javascriptreact" },
-
-// Extensions
-"extensions.ignoreRecommendations": true,
-"diffEditor.ignoreTrimWhitespace": false,
-"material-icon-theme.folders.associations": {
-"domain": "core",
-"infra": "app",
-"main": "public",
-"presentation": "connection",
-"cryptography": "secure",
-"entities": "class",
-"repositories": "mappings",
-"protocols": "resource",
-"useCases": "components",
-"subcomponents": "components",
-"adapters": "connection",
-"factories": "container",
-"globals": "global",
-"ui": "views"
-},
-"material-icon-theme.files.associations": {
-"ormconfig.json": "database",
-"tsconfig.json": "tune",
-".lintstagedrc.json": "tune"
-},
-"polacode.transparentBackground": true,
-"polacode.shadow": "none",
-"github.copilot.enable": {
-"*": true,
-"yaml": false,
-"plaintext": true,
-"markdown": false
-},
-"gitlens.defaultDateFormat": null,
-"gitlens.hovers.currentLine.over": "line",
-"liveServer.settings.donotShowInfoMsg": true,
-"git.confirmSync": false,
-"editor.inlineSuggest.enabled": true,
-"security.workspace.trust.untrustedFiles": "newWindow",
-"editor.cursorBlinking": "expand",
-"editor.cursorSmoothCaretAnimation": "on",
-"bracketPairColorizer.depreciation-notice": false,
-"workbench.productIconTheme": "fluent-icons",
-"terminal.integrated.fontFamily": "MesloLGS NF",
-"tabnine.experimentalAutoImports": true,
-"[typescriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"settingsSync.ignoredExtensions": [
-  "ms-vscode.cpptools"
-],
-"workbench.colorTheme": "Ayu Mirage",
-"[typescript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
+  "editor.fontFamily": "JetBrains Mono",
+  "termina.intergrated.fontSize": 14,
+  "terminal.intergrated.fontFamily": "JetBrainsMono Nerd Font", 
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "window.titleBarStyle": "custom",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "workbench.statusBar.visible": false,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "apc.activityBar": {
+      "position": "bottom",
+      "hideSettings": true,
+      "size": 48,
+      "itemMargin": 8,
+      "itemSize": 32
+    },
+  "apc.electron": {
+      "titleBarStyle": "hiddenInset",
+  },
+  "frame": false,
+  "workbench.layoutControl.enabled": false,
+  "apc.header": {
+      "height": 36
+  },
+  "apc.listRow": {
+      "height": 24
+  },
+  "apc.stylesheet": {
+      ".title-label > h2": "display: none",
+      ".pane-body": "padding: 7px",
+      ".pane-header": "padding 0 7px"
+  },
+"apc.font.family": "Geist Mono",
+"workbench.sideBar.location": "right",
+"terminal.integrated.defaultProfile.linux": "fish",
+"workbench.colorTheme": "Min Dark"
 }
